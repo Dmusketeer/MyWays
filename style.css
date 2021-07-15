@@ -5,7 +5,7 @@ html, body{
     width: 100%;
 }
 #camera, #camera--view, #camera--sensor, #camera--output{
-    position: fixed;
+    position:fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -25,8 +25,9 @@ html, body{
     left: calc(50% - 100px);
 }
 #camera--view, #camera--sensor, #camera--output{
-    transform: scaleX(-1);
-    filter: FlipH;
+    transform: scaleX(-1);/*cover whole x axis*/
+    /* filter: FlipH; */
+    filter: FlipV;
 }
 .taken{
     height: 100px!important;
@@ -38,3 +39,4 @@ html, body{
     right: 20px;
     z-index: 2;
 }
+
