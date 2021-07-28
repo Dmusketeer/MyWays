@@ -1,0 +1,36 @@
+.container{
+    text-align:center;
+    /* background-color:chocolate; */
+    padding-top: 150px;   
+}
+
+input{
+    padding:10px;
+    font-size:15px;
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+#btn{
+    background-color:rgb(161, 23, 7);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    /* margin-left: 10px; */
+}
+#btn:hover{
+    background-color:rgb(223, 112, 32);
+}
+body{
+    /* background-color:chocolate;*/
+    background-image:url(https://source.unsplash.com/1400x700/?corona,hospitals);
+}
+
+.details {
+    color: rgb(0, 0, 0);
+    background-color:maroon;
+    margin-left:350px;
+    margin-right:350px;
+    border-radius:15px;
+}
