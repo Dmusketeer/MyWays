@@ -1,6 +1,6 @@
   function getIP(json) {
     // document.write("My public IP address is: ", json.ip);
-      document.getElementById("loc").innerText = "My public IP address is: " + json.ip;
+      document.getElementById("loc").innerText = "My Public IP Address is : " + json.ip;
   }
 
 function geoFindMe() {
@@ -17,7 +17,7 @@ function geoFindMe() {
 
         status.textContent = '';
         mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
-        mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+        mapLink.textContent = `Latitude : ${latitude} ° , Longitude : ${longitude} °`;
     }
 
     function error() {

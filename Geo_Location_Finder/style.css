@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 220px;
+    margin-right: 220px;
+    background-color:rgb(65, 1, 40);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 2 10px 12px rgba(0,0,0,0.5);
+}
+body{
+    background-color:rgb(168, 2, 29);   
+}
+#loc{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#find-me{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    font-size:15px;
+    font-weight: bold;
+}
+
+#find-me:hover{
+    background-color:rgb(51, 212, 45)
+}
+#map-link{
+    color:antiquewhite;
+    font-size:20px;
+}
