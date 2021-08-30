@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendors/css/queries.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./vendors/css/normalize.css">
     <link rel="stylesheet" href="./vendors/css/normalize.css">
@@ -30,8 +31,8 @@
         <!-- nav bar  -->
         <div class="hero-text-box">
             <h1>Welcome healthy foods <br>Say Goodbye To junk foods</h1>
-            <a class="btn btn-full" href="#">I'm Hungry</a>
-            <a class="btn btn-ghost" href="#">Show More</a>
+            <a class="btn btn-full" href="#plans">I'm Hungry</a>
+            <a class="btn btn-ghost" href="#features">Show More</a>
         </div>
         <!-- background image -->
     </header>
@@ -39,7 +40,7 @@
 
 
     <!-- Header section -->
-    <section class="section-features">
+    <section class="section-features" id="features">
         <div class="row1">
             <h2>Get Food Fast &mdash; Not Fast Food</h2>
             <p class="long-copy">
@@ -140,7 +141,7 @@
     </section>
 
     <section>
-        <div class="section-step">
+        <div class="section-step" id="plans">
             <div class="row4">
                 <h2>How it Works &mdash; Simple as 1,2,3 </h2>
 
@@ -273,11 +274,184 @@
             </div>
         </div>
     </section>
+    <section class="section-plans">
+        <div class="row9">
+            <h2>Start Eating Healthy</h2>
+        </div>
+        <div class="align1">
+            <div class="row10">
+                <div class="plan-box">
+                    <h3>Premium</h3>
+                    <p class="plan-price">$399 /Month</p>
+                    <p class="plan-price-meal">That's Only $21.23 / Meal</p>
+                </div><br>
+                <hr>
+                <div class="plans-details">
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>1 Meal Every Day
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>Order 24*7
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>Free Delivery
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>1 free on 3
+                        </li>
+                    </ul>
+                </div><br>
+                <hr>
+                <div>
+                    <a href="" class="btn btn-full">Sign up</a>
+                </div>
+            </div>
+            <div class="row10">
+                <div class="plan-box">
+                    <h3>standard</h3>
+                    <p class="plan-price">$299 /Month</p>
+                    <p class="plan-price-meal">That's Only $13.23 / Meal</p>
+                </div><br>
+                <hr>
+                <div class="plans-details">
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>1 Meal Every Day
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>Order 24*7
+                        </li>
+                        <li>
+                            <ion-icon name="close-circle-outline" class="cross"></ion-icon>Free Delivery
+                        </li>
+                        <li>
+                            <ion-icon class="cross" name="close-circle-outline"></ion-icon>1 free on 3
+                        </li>
+                    </ul>
+                </div> <br>
+                <hr>
+                <div>
+                    <a href="" class="btn btn-ghost">Sign up</a>
+                </div>
+            </div>
+            <div class="row10">
+                <div class="plan-box">
+                    <h3>Starter</h3>
+                    <p class="plan-price">$299 /Month</p>
+                    <p class="plan-price-meal">That's Only $13.23 / Meal</p>
+                </div><br>
+                <hr />
+                <div class="plans-details">
+                    <ul>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>1 Meal Every Day
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>Order 24*7
+                        </li>
+                        <li>
+                            <ion-icon class="cross" name="close-circle-outline"></ion-icon>Free Delivery
+                        </li>
+                        <li>
+                            <ion-icon name="checkmark-circle-outline"></ion-icon>1 free on 3
+                        </li>
+                    </ul>
+                </div> <br>
+                <hr />
+                <div>
+                    <a href="" class="btn btn-full">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form">
+        <div class="row11">
+            <h2>Happy To Hear From YOU</h2>
+        </div>
+        <div class="row12">
+            <form action="#" method="POST" class="feedback">
+                <div class="class13">
+                    <div>
+                        <label for="Name">NAME</label>
+                    </div>&nbsp;
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Enter Name...">
+                    </div>
+                </div>
+                <div class="class13">
+                    <div><label for="Name">EMAIL</label></div>&nbsp;
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email...">
+                    </div>
+                </div>
+                <div class="class13">
+                    <div><label for="Name">How Did You Find Us?</label></div>&nbsp;
+                    <div>
+                        <select name="find-us" id="find-us" selected="selected">
+                            <option value="friends">Friends</option>
+                            <option value="insta">Instagram</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="telegram">Telegram</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="class13">
+                    <div><label for="Name">Feedback</label></div> &nbsp;
+                    <div>
+                        <textarea name="text" id="text" placeholder="write....."></textarea>
+                    </div>
+                </div>
+                <div class="class13">
+                    <input type="button" value="Submit" class="btn btn-full">
+                </div>
+            </form>
+        </div>
+    </section>
 
+    <!-- Footer Section -->
+    <footer>
+        <div class="row14">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">APP</a></li>
+                </ul>
 
+            </div>
+            <div class="footer-links">
+                <li>
+                    <ion-icon class="fb" name="logo-facebook"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon class="insta" name="logo-instagram"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon class="twitter" name="logo-twitter"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon class="google" name="logo-Google"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon class="linkedin" name="logo-linkedin"></ion-icon>
+                </li>
+            </div>
+            <div class="copy-write">
+                <p>Copyright &copy; 2021 by FOODBUDDY. all rights reserved.</p>
+            </div>
+            <div class="love">
+                <p>IN <ion-icon name="heart-sharp"></ion-icon> WITH YOU</p>
+            </div>
 
+        </div>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>
