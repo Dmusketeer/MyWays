@@ -1,6 +1,6 @@
 # Password Manager
 ## PROBLEM STATEMENT
-    You need to create a server side application with Express JS and EJS for UI templates, which acts as password manager, in which users can save login passwords of different websites similar to Dashlane (or) LastPass.
+    You need to create a server side application with Express JS and EJS for UI templates, which acts as password manager, in which users can save login passwords of different websites.
 
 ## <i>DESCRIPTION</i>
     Users can login into their account and add passwords of different websites and retrieve them when needed. The passwords should be encrypted in some form and should not be stored as plain text in the database .You can create an express server with mongoDB for storing user account details and user’s passwords in encrypted format. You can use the NodeJS crypto module for encryption and decryption. Use Google manifest declaration for building a chrome browser extension.
