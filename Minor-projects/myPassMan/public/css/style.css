@@ -5,6 +5,9 @@
 body {
   margin: 0px;
   font-family: "segoe ui";
+  background-image: url(../img/pic.jpg);
+  background-repeat: no;
+  background-size: cover;
 }
 
 /* ============================Nav bar============================ */
@@ -31,7 +34,9 @@ body {
 .nav > .nav-btn {
   display: none;
 }
-
+.nav-links > a {
+  float: right;
+}
 .nav > .nav-links {
   display: inline;
   float: right;
@@ -138,34 +143,28 @@ body {
   }
 }
 
-/* ============================Nav bar============================ */
+/* ============================Nav bar END============================ */
 
 /* ============================hero section============================ */
 
 .hero {
-  background-color: rgb(221, 220, 220);
-  height: 100vh;
+  margin-top: 200px;
   text-align: center;
-  justify-content: center;
+  margin-left: 350px;
+}
+.col-sm-offset-3 > h1 {
+  color: #fff;
 }
 
-.content {
-  text-align: center;
+.form-group {
+  color: #fff;
+  margin: 10px;
 }
-.content .hero_heading {
-  padding-top: 50px;
+.form-group > input {
+  margin-top: 10px;
 }
-
-.content h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 300%;
-  font-weight: bold;
-  line-height: 60px;
-  letter-spacing: 1px;
+.btn-warning {
+  margin-top: 10px;
 }
 
-.content h2 {
-  margin-top: 30px;
-}
-/* ============================hero section============================ */
+/* ============================hero section END============================ */
