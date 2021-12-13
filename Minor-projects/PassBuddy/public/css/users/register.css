@@ -1,0 +1,79 @@
+#register-container{
+    margin: 15% auto;
+    width: 30%;
+    padding: 20px;
+    background-color: #1A0315;
+}
+
+#create-account-text{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.normal-text{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -4px;
+}
+
+#username-area, .password-area{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#register-button{
+    background-color: #1A0315;
+    color: white;
+    border-radius: 5px;
+}
+
+#register-button:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #A239CA;
+    transition: 0.25s;
+}
+
+@media screen and (max-width: 1199px) {
+
+    #register-container{
+        width: 40%;
+    }
+
+    #create-account-text{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #register-container{
+        width: 50%;
+    }
+
+    #create-account-text{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #register-container{
+        width: 60%;
+    }
+
+    #create-account-text{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #register-container{
+        width: 70%;
+    }
+
+    #create-account-text{
+        font-size: 20px;
+    }
+}
